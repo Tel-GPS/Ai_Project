@@ -5,7 +5,7 @@ Welcome to this project's testing framework quickstart! This guide provides you 
 ## Quick Setup
 
 1. **Install Dependencies**: Ensure all dependencies are installed by running `pip install -r requirements.txt`.
-2. **Running Tests**: To run tests, execute `pytest` in the root directory of our project (adjust based on your testing framework).
+2. **Running Tests**: To run tests, execute `pytest` in the root directory of our project.
 
 ## Writing New Tests
 
@@ -15,7 +15,7 @@ Welcome to this project's testing framework quickstart! This guide provides you 
 
 ## CI Pipeline
 
-Our tests automatically run on all branches upon commits and pull requests via our CI pipeline. See our [CI Pipeline Configuration]([link-to-your-ci-config-file](https://github.com/Tel-GPS/Ai_Project/blob/main/.github/workflows/cml.yaml)) for details.
+Our tests automatically run on all branches upon commits and pull requests via our CI pipeline. See our [CI Pipeline Configuration](https://github.com/Tel-GPS/Ai_Project/blob/main/.github/workflows/cml.yaml) for details.
 
 ## Further Resources
 
