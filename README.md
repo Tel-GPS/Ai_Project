@@ -19,6 +19,6 @@ Our tests automatically run on all branches upon commits and pull requests via o
 
 ## Further Resources
 
-For a more detailed guide on our testing practices, including examples and conventions, please visit our [Comprehensive Testing Documentation in Confluence]([Confluence-Link](https://amhex01.atlassian.net/wiki/spaces/PFEAI/pages/9371649/Comprehensive+Testing+Guide+for+PFE)https://amhex01.atlassian.net/wiki/spaces/PFEAI/pages/9371649/Comprehensive+Testing+Guide+for+PFE).
+For a more detailed guide on our testing practices, including examples and conventions, please visit our [Comprehensive Testing Documentation in Confluence](https://amhex01.atlassian.net/wiki/spaces/PFEAI/pages/9371649/Comprehensive+Testing+Guide+for+PFE)
 
 ---
