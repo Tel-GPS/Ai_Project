@@ -1,13 +1,7 @@
 name: Enhanced_GPS
 on:
   push:
-    branches:
-      - main
-      - master
   pull_request:
-    branches:
-      - main
-      - master
 jobs:
   run:
     runs-on: ubuntu-latest
