@@ -1,5 +1,7 @@
 name: Enhanced_GPS
-on: [push]
+on:
+  push:
+  pull_request:
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -7,15 +9,31 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: iterative/setup-cml@v1
-      - name: ml_workflow
+      - name: Setup Environment
+        run: |
+          # Setup your environment here
+          # Example: pip install -r requirements.txt
+          echo "Environment setup complete."
+
+      - name: Run Automated Tests
+        run: |
+          # Placeholder for your test commands
+          # Example: pytest or python -m unittest
+          echo "Tests completed."
+
+      - name: ML Workflow
         run: |
           # Your ML workflow goes here
-          # pip install -r requirements.txt
-          # python train.py
+          # Example: python train.py
+          echo "ML workflow executed."
+
       - name: Write CML report
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Post reports as comments in GitHub PRs
-          # cat results.txt >> report.md
+          # Generate your reports here
+          # Example: cat results.txt >> report.md
+          # CML commands to post reports as comments in GitHub PRs
           # cml comment create report.md
+          echo "CML report generated."
+
