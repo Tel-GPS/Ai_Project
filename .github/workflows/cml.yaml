@@ -36,4 +36,20 @@ jobs:
           # CML commands to post reports as comments in GitHub PRs
           # cml comment create report.md
           echo "CML report generated."
+      
+      - name: Deploy to Production
+        run: |
+          # Exemple : docker-compose up -d
+          echo "Deployment to production completed."
+
+      - name: Deploy to Staging
+        run: |
+          # Exemple : kubectl apply -f staging.yaml
+          echo "Deployment to staging completed."
+
+      - name: Notify Slack
+        run: |
+          # Send a notification to slack (or other)
+          # Exemple : curl -X POST -H 'Content-type: application/json' --data '{"text":"Deployment completed!"}' https://hooks.slack.com/services/YOUR_SLACK_WEBHOOK_URL
+          echo "Slack notification sent."
 
