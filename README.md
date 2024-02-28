@@ -17,6 +17,10 @@ Welcome to this project's testing framework quickstart! This guide provides you 
 
 Our tests automatically run on all branches upon commits and pull requests via our CI pipeline. See our [CI Pipeline Configuration](https://github.com/Tel-GPS/Ai_Project/blob/main/.github/workflows/cml.yaml) for details.
 
+## CD Pipeline
+
+Our Continuous Deployment (CD) pipeline automates the deployment process for our project.
+
 ## Further Resources
 
 For a more detailed guide on our testing practices, including examples and conventions, please visit our [Comprehensive Testing Documentation in Confluence](https://amhex01.atlassian.net/wiki/spaces/PFEAI/pages/9371649/Comprehensive+Testing+Guide+for+PFE)
