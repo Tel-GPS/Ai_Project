@@ -1,0 +1,5 @@
+outs:
+- md5: 63a1086876e3b7eecf6a13f1978518c0
+  size: 70436
+  hash: md5
+  path: NewYork_01_buildings.csv
