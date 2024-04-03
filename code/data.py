@@ -63,7 +63,7 @@ def write_to_csv(filename, data):
 
 def main():
     # Insérez votre clé API Google Maps
-    api_key = 'AIzaSyC3bKufPC-AeeCrONHR2bCDulr0hJbEh6w'
+    api_key = 'clé API'
 
     # Adresses de départ et d'arrivée
     origin = 'Central Park, New York'
