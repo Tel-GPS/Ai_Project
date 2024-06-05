@@ -1,0 +1,6 @@
+[core]
+    remote = pikachu
+['remote "myremote"']
+    url = gdrive://1jST0CkPliXa6pGWEopOZUgIRqUI7mRQk
+['remote "pikachu"']
+    url = gdrive://1jST0CkPliXa6pGWEopOZUgIRqUI7mRQk
