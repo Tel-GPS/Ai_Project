@@ -65,11 +65,7 @@ def divide_images_into_classes(images_paths):
   # Images_per_class is a dict where the key is class_id, and the value
   # is a list with the paths of images within that class.
   images_per_class = {k: v for k, v in images_per_class.items() if len(v) >= 10}
-
-  print("Group together classes belonging to the same group")
-  # Classes_per_group is a dict where the key is group_id, and the value
-  # is a list with the class_ids belonging to that group.
-  classes_per_group = defaultdict(set)
+  
   for class_id, group_id in class_id__group_id:
       if class_id not in images_per_class:
           continue  # Skip classes with too few images
